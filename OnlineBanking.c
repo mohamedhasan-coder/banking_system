@@ -19,7 +19,7 @@ struct user {
 
 int main() {
     struct user usr, usr1;
-    FILE fp;
+    FILE *fp;
     char filename[50], phone[50], pword[50];
     int opt, choice;
     float amount;
