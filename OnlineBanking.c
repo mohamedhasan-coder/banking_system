@@ -4,7 +4,7 @@
 
 // Define a command to clear the screen that works on both Windows and Linux/macOS
 #ifdef _WIN32
-#define CLEAR_SCREEN ""
+#define CLEAR_SCREEN "cls"
 #else
 #define CLEAR_SCREEN "clear"
 #endif
