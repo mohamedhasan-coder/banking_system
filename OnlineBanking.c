@@ -162,5 +162,5 @@ int main() {
         getchar();
     }
 
-    return 1;
+    return 0;
 }
