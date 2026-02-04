@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+// Define a command to clear the screen that works on both Windows and Linux and macOS
 #ifdef _WIN32
 #define CLEAR_SCREEN "cls"
 #else
